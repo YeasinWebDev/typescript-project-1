@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo ts</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>Todo App</h1>
+
+        <form id="myfrom" class="pt-20 pb-5">
+          <input class="p-3 rounded-xl" type="text" required placeholder="Title">
+          <button type="submit">Add</button>
+        </form>
+
+        <div class="TodoContainer py-5 flex flex-col justify-start">
+          <p class="text-lg">No Todo Yet</p>
+        </div>
+      </div>
+
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
